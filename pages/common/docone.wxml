@@ -1,0 +1,23 @@
+<template name="docone">
+  <view class="doc-one wrap95">
+  <view class="one-l">
+    <image src="http://4g.sztjfk.cn/resources/jishu-doc.png"></image>
+  </view>
+  <view class="one-m">
+    <view class="doc-name">涂瑷琳</view>
+    <view class="doc-pos">主治医师</view>
+    <view class="doc-zhishu">患者推荐指数:
+    <image src="http://4g.sztjfk.cn/resources/jishu-xing.png"></image></view>
+  </view>
+  <view class="one-r">
+    <navigator url="/pages/component/pages/yuyue/yuyue" redirect>
+      <image src="http://4g.sztjfk.cn/resources/jishu-yuyue.png"></image>
+    </navigator>
+  </view>
+  <view class="clear"></view>
+  <view class="doc-sc">
+    擅长：诊治女性内分泌、月经、人流;乳腺增生、乳腺囊肿、乳腺炎;子宫肌瘤;
+    卵巢早衰等。
+  </view>
+</view>
+</template>

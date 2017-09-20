@@ -1,0 +1,96 @@
+/* pages/component/pages/laiyuanluxian/luxian.wxss */
+.lx-wrap{
+  padding: 20rpx 0;
+}
+.lx-wrap .content{
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+.lx-wrap .content view:first-child{
+  color:#d00e06;
+}
+.lx-wrap .btn{
+  text-align: center;
+}
+.lx-wrap .btn navigator,.lx-wrap .btn view{
+  display: inline-block;
+  width: 35%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fff;
+  background: #fe6397;
+  border-radius: 10rpx;
+  margin-right: 5%;
+  margin-top: 20rpx;
+  font-size: 36epx;
+}
+.lx-wrap .btn navigator{
+  background: #ed9017;
+}
+.lx-wrap .wrap{
+  border-bottom: 1px dashed #e5e5e5;
+  padding-top: 5%;
+}
+.lx-wrap .wrap-lf{
+  width: 20%;
+  float: left;
+}
+.lx-wrap .wrap-lf image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.lx-wrap .wrap-rt{
+  width: 75%;
+  float: right;
+}
+.lx-wrap .wrap-rt .rt-top{
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fe6397;
+}
+.lx-wrap .wrap-rt .rt-down{
+  padding: 2% 0;
+  font-size: 30rpx;
+}
+.lx-wrap .jutilx{
+   font-size: 30rpx;
+   color: #666;
+   margin: 3% 0;
+}
+.lx-wrap .jutilx text{
+  color: #fe6397;
+}
+.lx-wrap .wrap:last-child image{
+  width: 300rpx;
+  height: 80rpx;
+}
+.lx-wrap .wrap:last-child text{
+  display: inline-block;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 15%;
+  background: #eee;
+  font-size: 30rpx;
+  text-align: center;
+  float: left;
+}
+.lx-wrap .wrap:last-child input{
+  display: inline-block;
+  width: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1px solid #e5e5e5;
+  margin: 0 2%;
+  float: left;
+}
+
+.foot .top .top-left{
+  padding-bottom: 25%;
+}
+
+.foot .top .top-right{
+  padding-bottom: 25%;
+}

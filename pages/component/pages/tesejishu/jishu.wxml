@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+<import src="../../../common/docone.wxml" />
+<view>
+  <template is="head"></template>
+</view>
+<view class="jishu-wrap">
+  <view class="wrap95">
+    <image bindtap="calling" src="http://4g.sztjfk.cn/resources/jishu-1.png"></image>
+  </view>
+</view>
+<view class="jishu-wrap">
+  <view class="wrap95">
+    <image bindtap="calling" src="http://4g.sztjfk.cn/resources/jishu-2.png"></image>
+  </view>
+</view>
+<view class="jishu-wrap">
+  <view class="wrap95">
+    <image bindtap="calling" src="http://4g.sztjfk.cn/resources/jishu-3.png"></image>
+  </view>
+</view>
+<view class="jishu-wrap">
+  <view class="wrap95">
+    <image bindtap="calling" src="http://4g.sztjfk.cn/resources/jishu-4.png"></image>
+  </view>
+</view>
+<template is="docone"></template>
+<view class="dis"></view>
+ <view class="foot">
+  <template is="foot"></template> 
+ </view>

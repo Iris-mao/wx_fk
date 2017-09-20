@@ -1,0 +1,83 @@
+<template name="pinglun">
+  <view class="wrap95 main-title">真实评论</view>
+  <view class="comment">
+       <view class="pingjia wrap95">
+        <view class="pingjia-left">
+           <view>综合评分</view>
+           <view class="point">9.8</view>
+        </view>
+        <view class="pingjia-right">
+           <text>比医保便宜<text class="num">926</text></text>
+           <text>专家技术高<text class="num">1086</text></text>
+           <text>交通方便<text class="num">627</text></text>
+           <text>就诊环境好<text class="num">1008</text></text>
+           <text>名医专家多<text class="num">524</text></text>
+           <text>网络预约快<text class="num">1892</text></text>
+        </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun" style="border-top:none;">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/1.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">爱果果</view>
+              <view class="zhengwen">
+                <text>我是一名多次流产患者，后到同济医院治疗，仅仅3个多月，就成功怀孕了，还是双胞胎！不得不说，同济医院真神！</text>
+                <image src="http://4g.sztjfk.cn/resources/main4-6.png"></image>
+                <image src="http://4g.sztjfk.cn/resources/main4-7.png"></image>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/2.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">花君君</view>
+              <view class="zhengwen">
+                <view>意外怀孕比了很多家医院，最终选择了同济！手术过程中我没有感觉到疼痛，感觉睡了一觉起来手术就做好了，感谢医生
+                <image src="http://4g.sztjfk.cn/resources/main4-10.png"
+                   style="width:80rpx;height:25rpx;margin:0;"></image>
+                </view>      
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/3.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">爱吃猫的鱼</view>
+              <view class="zhengwen">
+                <text>停车场很大，看病的话有导医带着,来了几次,感觉这里的医生还是很尽职尽力的</text>
+                <image src="http://4g.sztjfk.cn/resources/main4-12.png"></image>
+                <image src="http://4g.sztjfk.cn/resources/main4-9.png"></image>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/4.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">红太狼的平底锅</view>
+              <view class="zhengwen">
+                <text>没去之前担心收费问题，治疗中发现担心是多余的，收费跟公立医院差不多，医生也没多开些不必要的药  </text>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+  </view>
+</template>

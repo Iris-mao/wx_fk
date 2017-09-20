@@ -1,0 +1,123 @@
+<!--pages/component/pages/gingjingjibing/jibing.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+<import src="../../../common/docone.wxml" />
+<view>
+  <template is="head"></template>
+</view>
+<view class="bingzhong">
+  <view class="bz bz-top">
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/jibing-1.png"></image>
+      <view>宫颈糜烂</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/jibing-2.png"></image>
+      <view>宫颈炎</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling" style="border:none;">
+      <image src="http://4g.sztjfk.cn/resources/jibing-3.png"></image>
+      <view>宫颈息肉</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="bz bz-down">
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/jibing-4.png"></image>
+      <view>宫颈癌</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/jibing-5.png"></image>
+      <view>宫颈肥大</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling" style="border:none;">
+      <image src="http://4g.sztjfk.cn/resources/jibing-6.png"></image>
+      <view>宫颈粘连</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+</view>
+<template is="docone"></template>
+<view class="dis"></view>
+<view class="wrap95 main-title">真实评论</view>
+  <view class="comment">
+       <view class="pingjia wrap95">
+        <view class="pingjia-left">
+           <view>综合评分</view>
+           <view class="point">9.8</view>
+        </view>
+        <view class="pingjia-right">
+           <text>比医保便宜<text class="num">926</text></text>
+           <text>专家技术高<text class="num">1086</text></text>
+           <text>交通方便<text class="num">627</text></text>
+           <text>就诊环境好<text class="num">1008</text></text>
+           <text>名医专家多<text class="num">524</text></text>
+           <text>网络预约快<text class="num">1892</text></text>
+        </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun" style="border-top:none;">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/7.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">羊村长头上长草</view>
+              <view class="zhengwen">
+                <text>我是一年前公司体检时查出患了宫颈糜烂，但当时没在意。后来越来越严重便去医院看了，同济医院的涂医生建议我用Lee宫颈修复术，后来果然好了。</text>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/8.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">M叶子</view>
+              <view class="zhengwen">
+                <text>我最近月经不正常， 然后就去了医院做了检查 医生说是宫颈肥大 。我听后很担心，好在医生说还不是很严重动手术就可以治疗。因为我有医保所以并没有花很多钱。
+                </text>      
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/3.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">爱吃猫的鱼</view>
+              <view class="zhengwen">
+                <text>停车场很大，看病的话有导医带着,来了几次,感觉这里的医生还是很尽职尽力的</text>
+                <image src="http://4g.sztjfk.cn/resources/main4-12.png"></image>
+                <image src="http://4g.sztjfk.cn/resources/main4-9.png"></image>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+       <view class="pinglun">
+           <view class="content wrap95">
+            <view class="left">
+              <image src="http://4g.sztjfk.cn/resources/touxiang/4.png"></image>
+            </view>
+            <view class="right">
+              <view class="name">红太狼的平底锅</view>
+              <view class="zhengwen">
+                <text>没去之前担心收费问题，治疗中发现担心是多余的，收费跟公立医院差不多，医生也没多开些不必要的药  </text>
+              </view>
+            </view>
+           </view>
+       </view>
+       <view class="clear"></view>
+  </view>
+<view class="dis"></view>
+ <view class="foot">
+  <template is="foot"></template> 
+ </view>
+

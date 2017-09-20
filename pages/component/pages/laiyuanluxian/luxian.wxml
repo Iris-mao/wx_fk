@@ -1,0 +1,99 @@
+<!--index.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+<view>
+  <template is="head"></template>
+</view>
+<view class="lx-wrap wrap95">
+  <image src="http://4g.sztjfk.cn/resources/luxian-1.png" style="height:400rpx;"></image>
+  <view class="content"><view>温馨提示：来院前请提前网络预约挂号！</view>
+    <view>1、网络预约可享受优先就诊和绿色通道服务；</view>
+    <view>2、网络挂号无任何附加费用，所填写一切资料严格保密。</view>
+    <view>3、我院为【二级综合医院，医保定点医院】，您可通过网络直接挂上海北京医生号，挂号费更优惠。</view>
+  </view>
+  <view class="btn">
+    <view bindtap="calling">在线咨询</view>
+    <navigator url="/pages/component/pages/yuyue/yuyue">预约挂号</navigator>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="lx-wrap wrap95">
+  <view class="wrap">
+    <view class="wrap-lf">
+      <image src="http://4g.sztjfk.cn/resources/luxian-2.png"></image>
+    </view>
+    <view class="wrap-rt">
+      <view class="rt-top">1、乘坐地铁交通</view>
+      <view class="rt-down">如何到苏州同济医院？</view>
+    </view>
+    <view class="clear"></view>
+    <view class="jutilx">1、乘坐地铁1号线（钟南街方向），在广济南路站下车
+    （3口出），乘坐公交921路，在友联新村北站下车，步行至苏州同济医院。</view>
+    <view class="jutilx">2、乘坐地铁2号线（宝带桥南方向），在桐泾公园站下车
+    ，步行至友新新村站，乘坐504路（或67路），在盘溪西村南站下车，步行至苏州同济医院。</view>
+  </view>
+  <view class="wrap">
+    <view class="wrap-lf">
+      <image src="http://4g.sztjfk.cn/resources/luxian-3.png"></image>
+    </view>
+    <view class="wrap-rt">
+      <view class="rt-top">2、乘坐公交车</view>
+      <view class="rt-down">如何到苏州同济医院？</view>
+    </view>
+    <view class="clear"></view>
+    <view class="jutilx"><text>盘溪新村站：</text>游4路、游4路长线、7路、7路区间、43路、
+    45路、47路、51路、54路、58路、58路区间、60路、63路、65路、88路、108路、
+    200路、310路、504路、522路、602路、921路（向南走200米左转到达）。</view>
+    <view class="jutilx"><text>盘溪新村南：</text>4路、游4路、游4路长线、10路西线、28路、
+    42路、43路、53路、63路、65路、67路、108路、200路、310路、504路（向西走100
+    米右转到达）。</view>
+    <view class="jutilx"><text>友联新村北：</text>10路、42路、47路、54路、67路、921路
+    （向东走200米到达）。</view>
+  </view>
+  <view class="wrap">
+    <view class="wrap-lf">
+      <image src="http://4g.sztjfk.cn/resources/luxian-4.png"></image>
+    </view>
+    <view class="wrap-rt">
+      <view class="rt-top">3、我还不知道如何到达医院？</view>
+      <view class="rt-down">如何到苏州同济医院？</view>
+    </view>
+    <view class="clear"></view>
+    <view class="jutilx">(1) 拨打<text>400-6009-222</text>咨询。</view>
+    <view class="jutilx">(2) 请在"起点"栏内填入您的位置，在"终点"栏内填入
+      <text>苏州市南环西路36号</text>，点击相应按钮即可；</view>
+  </view>
+  <view class="wrap" style="border:none;">
+    <view class="wrap-lf">
+      <image src="http://4g.sztjfk.cn/resources/luxian-5.png"></image>
+    </view>
+    <view class="clear"></view>
+    <text>出发</text><input type="text" />
+    <text>到达</text><input type="text" />
+    <view class="btn">
+      <navigator url="/pages/component/pages/yuyue/yuyue" redirect>查公交车乘</navigator>
+      <navigator url="/pages/component/pages/yuyue/yuyue" redirect>查开车/的士</navigator>
+    </view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="foot">
+     <template is="foot"></template>
+     <view class="down">
+        <view bindtap="shouye">
+         <navigator url="/pages/component/index" redirect>首 页</navigator> 
+        </view>
+        <view>
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <!-- <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>      -->
+              <view style="margin-top:-123%;">微信咨询</view>
+        </view>
+        <view bindtap="yuyue">
+         <navigator url="/pages/component/pages/yuyue/yuyue" redirect>预约挂号</navigator> 
+        </view>
+        <view bindtap="luxian">
+         <navigator url="/pages/component/pages/laiyuanluxian/luxian" redirect>来院路线</navigator> 
+        </view>
+      </view>
+  </view>

@@ -1,0 +1,57 @@
+/* index.wxss */
+
+/* main1  */
+.main1 .main-wrap{
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 36rpx;
+  color: #333;
+  font-family: "微软雅黑";
+  margin: 15rpx 0;
+}
+.main1 .main-wrap image{
+  width: 140rpx;
+  height:140rpx;
+}
+
+/* main2  */
+.main2 .main-wrap{
+  width: 30%;
+  float: left;
+  text-align: center;
+  font-size: 40rpx;
+  color: #333;
+  font-family: "微软雅黑";
+  margin-right: 5%;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background: url(http://4g.sztjfk.cn/resources/main2-back.png) no-repeat;
+  background-size: 100%; 
+  background-position-x: right;
+}
+.main2 .main-wrap .doc-pos{
+  font-size: 30rpx;
+  color:#999999;
+}
+.main2 .main-wrap image{
+  width: 200rpx;
+  height:200rpx;
+}
+
+/* main3 */
+.main3{padding: 20rpx 0;}
+.main3 image{height: 400rpx;}
+
+/* main4 */
+.main4{
+  padding: 20rpx 0;
+}
+
+.foot .top .top-left{
+  padding-bottom: 25%;
+}
+
+.foot .top .top-right{
+  padding-bottom: 25%;
+}

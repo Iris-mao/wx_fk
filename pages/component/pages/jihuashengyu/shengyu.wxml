@@ -1,0 +1,46 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+<import src="../../../common/docone.wxml" />
+<import src="../../../common/pinglun.wxml" />
+<view>
+  <template is="head"></template>
+</view>
+<view class="bingzhong">
+  <view class="bz bz-top">
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-1.png"></image>
+      <view>无痛人流</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-2.png"></image>
+      <view>药物流产</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling" style="border:none;">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-3.png"></image>
+      <view>早孕诊断</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="bz bz-down">
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-4.png"></image>
+      <view>宫外孕</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-5.png"></image>
+      <view>上环取环</view>
+    </view>
+    <view class="bz-wrap" bindtap="calling" style="border:none;">
+      <image src="http://4g.sztjfk.cn/resources/shengyu-6.png"></image>
+      <view>人流费用</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+</view>
+<template is="docone"></template>
+<view class="dis"></view>
+<template is="pinglun"></template>
+<view class="dis"></view>
+ <view class="foot">
+  <template is="foot"></template> 
+ </view>

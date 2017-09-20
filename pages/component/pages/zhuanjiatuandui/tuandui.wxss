@@ -1,0 +1,51 @@
+/* pages/component/pages/zhuanjiatuandui/tuandui.wxss */
+.yisheng .top{
+  padding: 20rpx 0;
+}
+.yisheng .top .top-left{
+  width: 33%;
+  float: left;
+}
+.yisheng .top .top-left image{
+  width: 230rpx;
+  height: 230rpx;
+}
+.yisheng .top .top-right{
+  width: 65%;
+  float: right;
+}
+.yisheng .top .top-right .doc-name{
+  color: #fe6397;
+  font-size: 46rpx;
+  padding-bottom: 10rpx;
+}
+.yisheng .top .top-right .doc-intro{
+  font-size: 30rpx;
+  line-height: 50rpx;
+  text-align: justify;
+}
+.yisheng .top .top-right .doc-intro text{
+  color: #999;
+}
+.yisheng .down{
+  padding: 20rpx;
+  border-top: 1px solid #e5e5e5;
+}
+.yisheng .down .zan{
+  width: 40rpx;
+  height: 40rpx;
+}
+.yisheng .down .tuijian{
+  padding-left: 50rpx;
+  font-size: 35rpx;
+}
+.yisheng .down .xing{
+  width: 100rpx;
+  height: 25rpx;
+  padding-left: 5rpx;
+}
+.yisheng .down .tiwen{
+  display: inline-block;
+  padding-left: 50rpx;
+  text-decoration: underline;
+}

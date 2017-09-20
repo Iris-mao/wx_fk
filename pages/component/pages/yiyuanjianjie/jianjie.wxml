@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<import src="../../../common/head.wxml" />
+ <import src="../../../common/foot.wxml" /> 
+<view>
+  <template is="head"></template>
+</view>
+<view class="jianjie" style="border-top:0;">
+   <view class="jianjie-wrap wrap95">
+      <view class="jianjie-title" style="background:#eee;">苏州同济医院</view>
+      <view class="jianjie-text">苏州同济医院是一家以现代康复为特色，
+      集医疗、保健、科研、康复为一体，以专科实力型和逐步蓄积专科人才为重点发
+      展的新型现代化医院。医院特有的专业、精细、卓越品质，以高度尊重女性生命
+      质量的态度落户苏城。同济医院技术力量雄厚，拥有近40位临床经验丰富、专业
+      技术突出的医生团队，医院走"六心"级妇科诊疗模式，设立妇科炎症门诊、宫颈
+      疾病门诊、内分泌门诊、乳腺门诊、计划生育门诊、女性不孕门诊等特色妇科门诊，
+      为苏城女性提供高品质、全方位的诊疗服务。</view>
+      <image src="http://4g.sztjfk.cn/resources/jianjie-1.png"></image>
+   </view>
+</view>
+<view class="jianjie">
+   <view class="jianjie-wrap wrap95">
+      <view class="jianjie-title">· 荟萃京沪苏三甲医生</view>
+      <view class="jianjie-text">为了让全市女性得到更专业更科学的诊治，
+      同济专门聘请了一支由北京妇产医院、首都复兴医院、上海同济医院、上海计划生
+      育研究所、苏大附属第一人民医院骨干力量组成的特需医生团，均达到副主任医师
+      以上职称，对夯实医疗医生资质提供了有力的保障。医院坚持"医生技术型"发展战略
+      ，从全国各地引进学科带头人，组成医疗管理精英团队，指导医院业务技术健康规范
+      化发展。十多年来，在这批拥有丰富临床经验、管理经验以及高尚医德医风的员工带
+      领下带领下，不仅将同济的服务品质推陈出新，更将越来越多的医疗技术运用于临床，
+      并不断完善提升。</view>
+      <image src="http://4g.sztjfk.cn/resources/jianjie-2.png"></image>
+   </view>
+</view>
+<view class="jianjie jianjie-ls">
+   <view class="jianjie-wrap wrap95">
+      <view class="jianjie-title">· 止于至善的品质服务</view>
+      <view class="jianjie-text">医院始终体现"以病人为中心"的服务宗旨。开创
+      "无假日全天候特需门诊"，"宫外孕24小时无障碍通道"，"网络咨询预约挂号"服务，
+      让患者就诊更方便更快捷。医院设立全年无假日门诊、夜门诊，倡导“一患、一医、
+      一诊室”的绿色诊疗服务，开设24小时在线客服热线400-6009-222。这一系列的举
+      措在患者身上得到了切实的反应，得到了患者的一致的肯定，患者对于苏州同济医院
+      的医疗服务有口皆碑!</view>
+      <image src="http://4g.sztjfk.cn/resources/jianjie-3.png"></image>
+      <image src="http://4g.sztjfk.cn/resources/jianjie-4.png"></image>
+   </view>
+</view>
+ <view class="dis"></view>
+ <view class="foot">
+  <template is="foot"></template> 
+ </view>

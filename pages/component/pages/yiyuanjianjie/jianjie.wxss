@@ -1,0 +1,30 @@
+/* pages/component/pages/yiyuanjianjie/jianjie.wxss */
+
+.jianjie{
+  border-top:1px dashed #cccccc;
+  text-align: center;
+}
+.jianjie .jianjie-title{
+  color: #fe6397;
+  font-size: 45rpx;
+  font-weight: bold;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+}
+.jianjie .jianjie-text{
+  font-size: 35rpx;
+  line-height: 50rpx;
+  text-align: justify;
+  padding: 20rpx 0;
+}
+.jianjie image{
+  width: 90%;
+  height: 350rpx;
+  margin-bottom: 20rpx;
+}
+.jianjie-ls image{
+  width: 40%;
+  margin-right: 5%;
+  height: 250rpx;
+}

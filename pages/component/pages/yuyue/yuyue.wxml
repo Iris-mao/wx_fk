@@ -1,0 +1,55 @@
+<!--pages/component/pages/yuyue/yuyue.wxml-->
+<view>
+  <image bindtap="calling" src="http://4g.sztjfk.cn/resources/yuyue-banner.png" style="height:400rpx;"></image>
+</view>
+<view class="yuyue">
+  <view class="yuyue-title">快速预约通道</view>
+  <view class="yuyue-form">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+     <view class="wrap95">
+          <label class="yuyue-label">就诊姓名：</label>
+          <input class="yuyue-input" placeholder-class="psection" placeholder=" 仅用于预约使用" bindinput="inputName" name="xingming" /></view>
+     <view class="wrap95">
+          <label class="yuyue-label">您的电话：</label>
+          <input class="yuyue-input" maxlength="11" placeholder-class="psection" placeholder=" 仅用于预约使用" bindinput="inputPhone" name="dianhua" /></view>
+     <view class="wrap95">
+          <label class="yuyue-label">预约日期：</label>
+          <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange" name="yuyueriqi">  
+            <view class="picker">  
+              {{yuyueriqi}}  
+            </view>  
+          </picker>  
+     </view>
+     <view class="wrap95">
+          <label class="yuyue-label">您想预约：</label>
+          <input class="yuyue-input" placeholder-class="psection" placeholder=" 科室/病种/专家" bindinput="inputTitle" name="yuyuemubiao" /></view>
+     <view class="wrap95">
+          <label class="yuyue-label">您的需求：</label>
+          <input class="yuyue-input" placeholder-class="psection" placeholder=" 简单描述您的病情" bindinput="inputBeizhu" name="beizhu" /></view>
+     <view class="yuyue-btn">
+          <button formType="submit" disabled="{{submited}}">提交预约</button>  
+          <button class="reset" formType="reset" disabled="{{submited}}">重新填写</button>
+          <view bindtap="calling">直接拨打电话预约</view>  
+      </view>
+    </form>
+  </view>
+</view>
+<view class="foot">
+     <view class="down">
+        <view bindtap="shouye">
+         <navigator url="/pages/component/index" redirect>首 页</navigator> 
+        </view>
+        <view>
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <!-- <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>      -->
+              <view style="margin-top:-123%;">微信咨询</view>
+        </view>
+        <view bindtap="yuyue">
+         <navigator url="/pages/component/pages/yuyue/yuyue" redirect>预约挂号</navigator> 
+        </view>
+        <view bindtap="luxian">
+         <navigator url="/pages/component/pages/laiyuanluxian/luxian" redirect>来院路线</navigator> 
+        </view>
+      </view>
+  </view>

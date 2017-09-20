@@ -1,0 +1,42 @@
+<!-- <template name="foot">
+  <view class="foot">
+     
+     <view class="down">
+        <view bindtap="shouye">
+         <navigator url="/pages/component/index" redirect>首 页</navigator> 
+        </view>
+        <view>
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>  
+              <contact-button style="opacity:0;" type="default-light" session-from="weapp" size="100"></contact-button>     
+              <view style="margin-top:-123%;">微信咨询</view>
+        </view>
+        <view bindtap="yuyue">
+         <navigator url="/pages/component/pages/yuyue/yuyue" redirect>预约挂号</navigator> 
+        </view>
+        <view bindtap="luxian">
+         <navigator url="/pages/component/pages/laiyuanluxian/luxian" redirect>来院路线</navigator> 
+        </view>
+      </view>
+  </view>
+</template> -->
+
+<template name="foot">
+<view class="top wrap95">
+      <view class="top-left">
+        <image src="http://4g.sztjfk.cn/resources/foot-code.png"></image>
+        <view>微信号：sztj-fk</view>
+      </view>
+      <view class="top-right">
+        <view class="wrap" bindtap="calling">
+          <view>24小时咨询热线：</view>
+          <view>400-6009-222</view>
+        </view>
+        <view class="wrap" bindtap="calling">
+          <view>QQ在线咨询：</view>
+          <view>3062698648</view>
+        </view>
+      </view>
+     </view>
+     <view class="clear"></view>
+</template>

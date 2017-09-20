@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/component/index",
+    "pages/component/pages/yiyuanjianjie/jianjie",
+    "pages/component/pages/zhuanjiatuandui/tuandui",
+    "pages/component/pages/tesejishu/jishu",
+    "pages/component/pages/laiyuanluxian/luxian",
+    "pages/component/pages/jihuashengyu/shengyu",
+    "pages/component/pages/fukeyanzheng/yanzheng",
+    "pages/component/pages/gongjingjibing/jibing",
+    "pages/component/pages/fukezhongliu/zhongliu",
+    "pages/component/pages/yuyue/yuyue"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fd6397",
+    "navigationBarTitleText": "苏州同济妇科",
+    "navigationBarTextStyle": "white"
+  }
+}

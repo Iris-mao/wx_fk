@@ -1,0 +1,141 @@
+<!--index.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+<view>
+  <template is="head"></template>
+</view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-1.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">赖爱鸾    主任医师</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>擅长妇科肿瘤的诊治，如子宫肌瘤、卵巢囊肿、子宫内膜异位症等
+          ，尤其擅长子宫纵膈、多囊卵巢的腔镜治疗。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-2.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">史   樱    主任医师</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>擅长治疗功能性子宫出血，卵巢囊肿、卵巢早衰、
+          多囊卵巢综合征、围绝经期综合症等女性内分泌方面的问题。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-3.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">涂瑷琳    主治医师</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>擅长诊治女性内分泌、月经、功血疾病;乳腺增生、
+          乳腺囊肿、乳腺炎;子宫肌瘤;卵巢早衰等。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-4.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">周桂珍    妇科主治医生</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>计划生育方面手术，如药流、PAC无痛人流、引产、
+          无痛上环、取环、输卵管结扎等。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-5.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">黄   铮    妇科主治医生</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>擅长结合传统和现代医学，治疗阴道炎，宫颈疾病、
+          子宫内膜炎等妇科常见疾病。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+<view class="yisheng">
+  <view class="top wrap95">
+    <view class="top-left">
+      <image src="http://4g.sztjfk.cn/resources/doc-6.png"></image>
+    </view>
+    <view class="top-right">
+      <view class="doc-name">陈   薇    副主任医师</view>
+      <view class="doc-intro">
+          <text>专业擅长：</text>精通妇产科疑难杂症：如子宫纵隔、阴道盆底松弛、
+          处女膜再造、双子宫、卵巢囊肿、妇科肿瘤等疾病，手术娴熟。
+      </view>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="down">
+      <image class="zan" src="http://4g.sztjfk.cn/resources/doc-zan.png"></image>
+      <text class="tuijian">推荐指数</text>
+      <image class="xing" src="http://4g.sztjfk.cn/resources/doc-xing.png"></image>
+      <view bindtap="calling" class="tiwen">免费向医生提问</view>
+  </view>
+</view>
+<view class="dis"></view>
+ <view class="foot">
+  <template is="foot"></template> 
+ </view>
